@@ -1,0 +1,17 @@
+/home/ticarangal/repos/provider-search-api/Application/bin/Debug/net7.0/Application.deps.json
+/home/ticarangal/repos/provider-search-api/Application/bin/Debug/net7.0/Application.dll
+/home/ticarangal/repos/provider-search-api/Application/bin/Debug/net7.0/Application.pdb
+/home/ticarangal/repos/provider-search-api/Application/bin/Debug/net7.0/Domain.dll
+/home/ticarangal/repos/provider-search-api/Application/bin/Debug/net7.0/Persistence.dll
+/home/ticarangal/repos/provider-search-api/Application/bin/Debug/net7.0/Domain.pdb
+/home/ticarangal/repos/provider-search-api/Application/bin/Debug/net7.0/Persistence.pdb
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/Application.AssemblyInfoInputs.cache
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/Application.AssemblyInfo.cs
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/Application.csproj.CoreCompileInputs.cache
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/Application.csproj.CopyComplete
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/Application.dll
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/refint/Application.dll
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/Application.pdb
+/home/ticarangal/repos/provider-search-api/Application/obj/Debug/net7.0/ref/Application.dll

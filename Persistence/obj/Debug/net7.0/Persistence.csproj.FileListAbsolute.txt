@@ -1,0 +1,15 @@
+/home/ticarangal/repos/provider-search-api/Persistence/bin/Debug/net7.0/Persistence.deps.json
+/home/ticarangal/repos/provider-search-api/Persistence/bin/Debug/net7.0/Persistence.dll
+/home/ticarangal/repos/provider-search-api/Persistence/bin/Debug/net7.0/Persistence.pdb
+/home/ticarangal/repos/provider-search-api/Persistence/bin/Debug/net7.0/Domain.dll
+/home/ticarangal/repos/provider-search-api/Persistence/bin/Debug/net7.0/Domain.pdb
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/Persistence.csproj.AssemblyReference.cache
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfoInputs.cache
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfo.cs
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/Persistence.csproj.CoreCompileInputs.cache
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/Persistence.dll
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/refint/Persistence.dll
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/Persistence.pdb
+/home/ticarangal/repos/provider-search-api/Persistence/obj/Debug/net7.0/ref/Persistence.dll

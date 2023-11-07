@@ -1,0 +1,12 @@
+/home/ticarangal/repos/provider-search-api/Domain/bin/Debug/net7.0/Domain.deps.json
+/home/ticarangal/repos/provider-search-api/Domain/bin/Debug/net7.0/Domain.dll
+/home/ticarangal/repos/provider-search-api/Domain/bin/Debug/net7.0/Domain.pdb
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/Domain.dll
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/refint/Domain.dll
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/Domain.pdb
+/home/ticarangal/repos/provider-search-api/Domain/obj/Debug/net7.0/ref/Domain.dll
