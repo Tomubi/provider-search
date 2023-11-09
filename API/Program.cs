@@ -1,5 +1,5 @@
+using Application.Providers;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Migrations.Operations.Builders;
 using Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +23,7 @@ builder.Services.AddCors(opt =>
             .WithOrigins("http://localhost:3000", "http://127.0.0.1:3000");
     });
 });
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(List.Handler).Assembly));
 
 var app = builder.Build();
 

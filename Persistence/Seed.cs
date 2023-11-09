@@ -6,11 +6,11 @@ namespace Persistence
     {
         public static async Task SeedData(DataContext context)
         {
-            if (context.Physicians.Any()) return;
+            if (context.Providers.Any()) return;
 
-            var physicians = new List<Physician>
+            var providers = new List<Provider>
             {
-                new Physician
+                new Provider
                 {
                     Name = "Emily Stanton",
                     Specialty = "Internal Medicine",
@@ -18,7 +18,7 @@ namespace Persistence
                     DateDescription = "Joined 2 months ago",
                     City = "Springfield"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Aiden Burke",
                     Specialty = "Family Medicine",
@@ -26,7 +26,7 @@ namespace Persistence
                     DateDescription = "Joined last month",
                     City = "Fairview"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Nora Kaplan",
                     Specialty = "Pulmonary Disease",
@@ -34,7 +34,7 @@ namespace Persistence
                     DateDescription = "Starting in a month",
                     City = "Ridgemont"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Lucas Werner",
                     Specialty = "Osteopathic Medicine",
@@ -42,7 +42,7 @@ namespace Persistence
                     DateDescription = "Starting in 2 months",
                     City = "Oakdale"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Grace Tam",
                     Specialty = "Internal Medicine",
@@ -50,7 +50,7 @@ namespace Persistence
                     DateDescription = "Starting in 3 months",
                     City = "Brookside"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Ethan Lloyd",
                     Specialty = "Family Medicine",
@@ -58,7 +58,7 @@ namespace Persistence
                     DateDescription = "Starting in 4 months",
                     City = "Cedarwood"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Mia Clarkson",
                     Specialty = "Pulmonary Disease",
@@ -66,7 +66,7 @@ namespace Persistence
                     DateDescription = "Starting in 5 months",
                     City = "Pinecrest"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Oliver Thorne",
                     Specialty = "Osteopathic Medicine",
@@ -74,7 +74,7 @@ namespace Persistence
                     DateDescription = "Starting in half a year",
                     City = "Maple Grove"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Ava Whitlock",
                     Specialty = "Internal Medicine",
@@ -82,7 +82,7 @@ namespace Persistence
                     DateDescription = "Starting in 7 months",
                     City = "Elmwood"
                 },
-                new Physician
+                new Provider
                 {
                     Name = "Noah Ramsey",
                     Specialty = "Family Medicine",
@@ -92,7 +92,7 @@ namespace Persistence
                 }
             };
 
-            await context.Physicians.AddRangeAsync(physicians);
+            await context.Providers.AddRangeAsync(providers);
             await context.SaveChangesAsync();
         }
     }

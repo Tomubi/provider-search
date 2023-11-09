@@ -73,3 +73,5 @@
 /home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/Mono.TextTemplating.dll
 /home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/System.CodeDom.dll
+/home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/MediatR.dll
+/home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/MediatR.Contracts.dll

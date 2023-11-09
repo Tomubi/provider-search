@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRNSe8cbkuqF6mrWLrKiAnLHRgKKQ+6cQnO7Xtd0mUl1wa+BYEQSARzs3Qe2HTa02z2fA63XGS9bswxwqgRaTQ==",
+  "dgSpecHash": "udDGibKJl/hhGXqhlVWJFbOFaX9QetOGP8ZQYwO2UY9eNiw7RqHVWsDG+i3hIuOOXcoQyLOjlZxLOjsYQZjvZw==",
   "success": true,
   "projectFilePath": "/home/ticarangal/repos/provider-search-api/API/API.csproj",
   "expectedPackageFiles": [
     "/home/ticarangal/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/ticarangal/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/home/ticarangal/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.aspnetcore.openapi/7.0.13/microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.data.sqlite.core/7.0.13/microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.entityframeworkcore/7.0.13/microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

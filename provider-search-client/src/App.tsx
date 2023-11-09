@@ -7,7 +7,7 @@ function App() {
   const [providers, setProviders] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/physicians").then((response) => {
+    axios.get("http://localhost:5000/api/providers").then((response) => {
       setProviders(response.data);
     });
   }, []);

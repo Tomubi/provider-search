@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "N3Q4BWP3zbsUS9pnfwCF97DHhOl5OvIjSa7+8UYBObhGs8XRWgeleo9JJIgFLQSEXPP5Ru54dJwU69+Dd3n6MA==",
+  "dgSpecHash": "A9Dy9U4cIf/rPVbeV+9is0q7dKCbALah1vz1rtQDBIIOQQXb+kqFnb5tancJ5KqhCWk5InNcheBEqvAclplu7A==",
   "success": true,
   "projectFilePath": "/home/ticarangal/repos/provider-search-api/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/home/ticarangal/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/home/ticarangal/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.data.sqlite.core/7.0.13/microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.entityframeworkcore/7.0.13/microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.13/microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
