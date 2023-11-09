@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
+import { Header, List } from "semantic-ui-react";
 
 function App() {
   const [providers, setProviders] = useState([]);
@@ -13,12 +14,12 @@ function App() {
 
   return (
     <div>
-      <h1>Provider Search</h1>
-      <ul>
+      <Header as="h2" icon="users" content="Provider Search" />
+      <List>
         {providers.map((provider: any) => (
-          <li key={provider.id}>{provider.name}</li>
+          <List.Item key={provider.id}>{provider.name}</List.Item>
         ))}
-      </ul>
+      </List>
     </div>
   );
 }
