@@ -6,16 +6,24 @@ namespace API.Controllers
 {
     public class ProvidersController : BaseApiController
     {
-        [HttpGet] //api/provider
-        public async Task<ActionResult<List<Provider>>> GetPhysicians()
+        [HttpGet] //api/providers
+        public async Task<ActionResult<List<Provider>>> GetProviders()
         {
             return await Mediator.Send(new List.Query());
         }
 
         [HttpGet("{id}")] //api/providers/fsfsfs
-        public async Task<ActionResult<Provider>> GetPhysician(Guid id)
+        public async Task<ActionResult<Provider>> GetProviders(Guid id)
         {
             return await Mediator.Send(new Details.Query { Id = id });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateProvider(Provider provider)
+        {
+            await Mediator.Send(new Create.Command { Provider = provider });
+
+            return Ok();
         }
     }
 }

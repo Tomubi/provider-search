@@ -18,9 +18,11 @@ namespace Application.Providers
             {
                 _context = context;
             }
-            public Task Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
-                throw new NotImplementedException();
+                _context.Providers.Add(request.Provider);
+
+                await _context.SaveChangesAsync();
             }
         }
     }
