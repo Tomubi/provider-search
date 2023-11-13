@@ -25,5 +25,15 @@ namespace API.Controllers
 
             return Ok();
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> EditProvider(Guid id, Provider provider)
+        {
+            provider.Id = id;
+
+            await Mediator.Send(new Edit.Command { Provider = provider });
+
+            return Ok();
+        }
     }
 }
