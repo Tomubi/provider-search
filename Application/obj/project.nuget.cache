@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "A9Dy9U4cIf/rPVbeV+9is0q7dKCbALah1vz1rtQDBIIOQQXb+kqFnb5tancJ5KqhCWk5InNcheBEqvAclplu7A==",
+  "dgSpecHash": "Np3/ELicGQ8+X/MF4Snk5mfGol3xvlCPRbpqfuoDVIu9ZCKk+Y6GvSTMnB34iVv2C4JNFUVJEbo+eN4xJsUEDg==",
   "success": true,
   "projectFilePath": "/home/ticarangal/repos/provider-search-api/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/home/ticarangal/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/ticarangal/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/ticarangal/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.data.sqlite.core/7.0.13/microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.entityframeworkcore/7.0.13/microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "/home/ticarangal/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.13/microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",

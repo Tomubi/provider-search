@@ -1,5 +1,6 @@
 
 
+using AutoMapper;
 using Domain;
 using MediatR;
 using Persistence;
@@ -16,15 +17,17 @@ namespace Application.Providers
         public class Handler : IRequestHandler<Command>
         {
             private readonly DataContext _context;
-            public Handler(DataContext context)
+            private readonly IMapper _mapper;
+            public Handler(DataContext context, IMapper mapper)
             {
+                _mapper = mapper;
                 _context = context;
             }
             public async Task Handle(Command request, CancellationToken cancellationToken)
             {
-                var Provider = await _context.Providers.FindAsync(request.Provider.Id);
+                var provider = await _context.Providers.FindAsync(request.Provider.Id);
 
-                Provider.Name = request.Provider.Name ?? Provider.Name;
+                _mapper.Map(request.Provider, provider);
 
                 await _context.SaveChangesAsync();
             }

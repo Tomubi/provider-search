@@ -75,3 +75,5 @@
 /home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/System.CodeDom.dll
 /home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/MediatR.dll
 /home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/MediatR.Contracts.dll
+/home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/AutoMapper.dll
+/home/ticarangal/repos/provider-search-api/API/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
